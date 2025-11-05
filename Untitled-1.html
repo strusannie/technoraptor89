@@ -1,0 +1,356 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Technoraptor89</title>
+  <style>
+    .wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      font-weight: bold;
+      /**
+     * This CSS property centers the text horizontally within its containing element.
+     * It is commonly used to align text in the middle of a block or container.
+     */
+
+      text-align: center;
+    }
+
+    .wrapper>* {
+      padding: 10px;
+      flex: 1 100%;
+    }
+
+    .header {
+      background: rgb(129, 207, 243);
+    }
+
+    .footer {
+      background: rgb(30, 99, 163);
+    }
+
+    .main {
+      text-align: left;
+      background: rgb(18, 142, 184);
+    }
+
+    .aside-1 {
+      background: rgb(7, 71, 100);
+    }
+
+    .aside-1 img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .aside-2 {
+      background: rgb(22, 92, 133);
+    }
+
+    @media all and (min-width: 700px) {
+      .aside {
+        flex: 1 0 0;
+      }
+    }
+
+    @media all and (min-width: 900px) {
+      .main {
+        flex: 3 0;
+      }
+
+      .aside-1 {
+        order: 1;
+      }
+
+      .main {
+        order: 2;
+      }
+
+      .aside-2 {
+        order: 3;
+      }
+
+      .footer {
+        order: 4;
+      }
+    }
+
+    body {
+      padding: 2em;
+    }
+
+CSS
+Css.chat-box {
+  width: 500px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">Technoraptor89</header>
+    <article class="main">
+    <h2><p>Schedule for youtube</p></h2>  
+      <p>Schedule from Monday to Friday 3pm to 9pm</p>
+      <p>Saturday and Sunday 12pm to 6pm</p><br>
+    <!--<h2><p>Technoraptor89 minecraft server ip</p></h2>
+    -->
+    <h2><p>Technoraptor89 minecraft</p></h2>
+    <a href="youtube.com/@technoraptor89">technoraptor89.com</a><br>
+    <a href="https://youtu.be/rQ3cS-0B26w">minecraft.technoraptor89</a>
+    <h2>info</h2>
+    </article>
+    <aside class="aside aside-1">
+
+      
+     <picture>
+        <source media="(max-width: 320px)" srcset="@technoraptor89.png">
+        <source media="(max-width: 600px)" srcset="@technoraptor89.png">
+        <img src="c:\Users\annie.strus\Desktop\paint\@technoraptor89.png" alt="technoraptor89 logo">
+      </picture>
+      
+      <!-- An alternative implementation with srcset -->
+      <!--
+        <img srcset=" https://portal.itas.ca/pluginfile.php/1/core_admin/logocompact/300x300/1759162927/blue-VIU-initiaIs-ITAS.png240w,
+                   https://https://portal.itas.ca/pluginfile.php/1/core_admin/logocompact/300x300/1759162927/blue-VIU-initiaIs-ITAS.png 500w,
+                   https://https://portal.itas.ca/pluginfile.php/1/core_admin/logocompact/300x300/1759162927/blue-VIU-initiaIs-ITAS.png 1068w"
+           sizes="(max-width: 240px) 320px,
+                  (max-width: 480px) 500px,
+                  800px"
+           <src="c:https://vercel.com/"> 
+       -->
+      <meta-viewpoint name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Technoraptor89</title>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          margin: 0;
+          font-family:
+            system-ui,
+            -apple-system,
+            Segoe UI,
+            Roboto,
+            Helvetica,
+            Arial,
+            "Apple Color Emoji",
+            "Segoe UI Emoji";
+          color: #111827;
+          background: #ffffff;
+          padding: 24px;
+        }
+
+        h1 {
+          margin: 0 0 16px;
+          font-weight: 700;
+          font-size: 24px;
+        }
+
+        p {
+          margin: 0 0 12px;
+          color: #18191a;
+        }
+
+        /* Card styling to match the original grid items */
+        .card {
+          background: #f5f7fb;
+          border: 1px solid #e6eaf2;
+          border-radius: 10px;
+          padding: 18px;
+        }
+
+        /* Form laid out as a 2-column grid: 1 part label, 2 parts input */
+        form {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          /* 1 part for label, 2 parts for input */
+          gap: 1em;
+          /* space between grid items */
+        }
+
+        label {
+          font-weight: 600;
+          align-self: center;
+          /* vertically center labels next to inputs */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+          width: 100%;
+          padding: 10px 15px;
+          border: 1px solid #cfd6e4;
+          border-radius: 8px;
+          font-size: 12px;
+        }
+
+        /* Make the submit row span both columns */
+        .full-row {
+          grid-column: 1 / -1;
+        }
+
+        button[type="submit"] {
+          padding: 10px 14px;
+          border: 1px solid #1f6feb;
+          background: #2f81f7;
+          color: white;
+          border-radius: 8px;
+          font-size: 12px;
+          cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+          filter: brightness(0.95);
+        }
+
+        /* Optional: stack labels above inputs on narrow screens */
+        @media (max-width: 520px) {
+          form {
+            grid-template-columns: 1fr;
+            /* labels above inputs */
+          }
+
+          label {
+            align-self: start;
+          }
+        }
+        .form-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+      </style>
+      </header>
+
+      <body>
+        <h1>Technoraptor89 minecraft</h1>
+        <p> A way to connect to Technoraptor89 on Minecraft </p>
+        <div class="card">
+            <p> you can email or chat with Technoraptor89 via chat</p>
+         <a href="mailto:technoraptor89@hotmail.com">technoraptor89@hotmail.com</a>
+        </div>
+
+    </aside>
+    <aside class="aside aside-2">
+    
+<div class="chat-box">
+ <h2>Chat with Technoraptor89!</h2>
+    <p>Type your message below and hit Send.</p>
+   <div class="chat-header">Chat Box</div>
+  <div class="chat-messages" id="chatMessages"></div>
+  <div class="chat-input">
+</div>
+    <div id="chatbox-messages" style="height: 500px; overflow-y: auto; border: 1px solid #ccc; padding: 15x; margin-bottom: 15x;">
+         <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <chat-box messages will appear here
+          style="width: 100%; padding: 15px;" />
+          <input type="text" id="name" name="name" required>  <span id="chatbox-status" style="margin-left: 10px; color: green;"></span>
+          <input message>  <input type="text" id="chatbox-input" placeholder="Type your message..." 
+          style="width: 80%; padding: 10px;" />
+          <button type="button" id="chatbox-send" style="padding: 10px 15px; margin-left: 10px;">Send</button>
+        </form>
+<input type="hidden" id="chatbox-timestamp" value="" />
+<input type="hidden" id="chatbox-status" value="Online" />
+<input type="hidden" id="chatbox-id" value="" />
+<input type="hidden" id="chatbox-session" value="" />
+<input type="hidden" id="chatbox-token" value="" />
+<input type="hidden" id="chatbox-api-key" value="" />
+<input type="hidden" id="chatbox-endpoint" value="" />
+<input type="hidden" id="chatbox-model" value="" />
+<input type="hidden" id="chatbox-temperature" value="" />
+<input type="hidden" id="chatbox-max-tokens" value="" />
+<input type="hidden" id="chatbox-top-p" value="" />
+<input type="hidden" id="chatbox-frequency-penalty" value="" />
+<input type="hidden" id="chatbox-presence-penalty" value="" />
+<input type="hidden" id="chatbox-stop-sequences" value="" />
+<input type="hidden" id="chatbox-user-agent" value="" />
+<input type="hidden" id="chatbox-referer" value="" />
+<input type="hidden" id="chatbox-language" value="" />
+<input type="hidden" id="chatbox-timezone" value="" />
+<input type="hidden" id="chatbox-platform" value="" />
+<input type="hidden" id="chatbox-browser" value="" />
+<input type="hidden" id="chatbox-os" value="" />
+<input type="hidden" id="chatbox-resolution" value="" />
+<input type="hidden" id="chatbox-color-depth" value="" />
+<input type="hidden" id="chatbox-cookie-enabled" value="" /> 
+<hostpot-field name="bot-field" style="display:none;"></hostpot-field><br>
+        </form>
+    
+   <div class="container"><api-viewer></api-viewer></div>
+    <div>
+    
+     </form>
+        </div>
+    </aside>
+    <footer class="footer">
+      <p>Visit us at: 
+         <a href="https://www.technoraptor89.com" class="technoraptor89 com">https://www.technoraptor89.com</a></p>
+         <div class="ping"><a href="10.10.10.56">@technoraptor89</a></div>
+         <p>© 2025 Technoraptor89. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+<!--C:\Users\annie.strus\Desktop\ITAS\Untitled-1.html-->
+</html>
