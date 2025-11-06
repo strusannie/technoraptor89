@@ -1,3 +1,3 @@
 technoraptor89-website
 
-a place to see wht is up with Technoraptor89
+a place to see what is up with Technoraptor89
